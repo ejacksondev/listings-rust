@@ -10,12 +10,12 @@ A Rust language and style specification for the LaTeX-package listings
   // your source code
   \end{lstlisting}
   ```
-* optional: select one of the styles `colouredRust` or `boxed`, e.g.
+* optional: select one of the styles `colouredRust`, `uncolouredRust`, or `boxed`, e.g.
   ```latex
   \begin{lstlisting}[language=Rust, style=boxed]
   // your source code
   \end{lstlisting}
   ```
-
+  _Please note: uncolouredRust will render with no additional colours. Use of this fork rather than the main project will result in a lack of blue hghlights on more delimiters whilst using colouredRust and boxed modes._
 ## Documentation
 Currently there is only the style-file itself and the example document `listings-style.tex` for documentation.
